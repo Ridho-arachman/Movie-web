@@ -55,7 +55,12 @@ const App = () => {
                       Click
                     </button>
                     <dialog id="my_modal_4" className="modal text-slate-800 ">
-                      <Modal id={getId} />
+                      <form
+                        method="dialog"
+                        className="modal-box w-11/12 max-w-5xl overflow-scroll"
+                      >
+                        <Modal id={getId} />
+                      </form>
                     </dialog>
                   </div>
                 </div>

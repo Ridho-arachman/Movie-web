@@ -1,4 +1,4 @@
-import { useEffect, useId, useState } from "react";
+import { useEffect, useState } from "react";
 import { getMovieById } from "../api";
 
 const Modal = ({ id }) => {
@@ -13,7 +13,7 @@ const Modal = ({ id }) => {
           <div className="card bg-base-100 lg:flex lg:flex-row">
             <div>
               <h2 className="font-bold text-2xl mb-3 text-center">{e.Title}</h2>
-              <figure className="">
+              <figure>
                 <div className="relative">
                   <img
                     src={e.Poster}

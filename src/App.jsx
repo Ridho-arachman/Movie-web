@@ -46,7 +46,7 @@ const App = () => {
                 <div className="card-actions justify-end">
                   <div>
                     <button
-                      className="btn glass"
+                      className="btn"
                       onClick={() => {
                         setId(e.imdbID);
                         window.my_modal_4.showModal();
@@ -54,10 +54,7 @@ const App = () => {
                     >
                       Click
                     </button>
-                    <dialog
-                      id="my_modal_4"
-                      className="modal text-slate-800 ring "
-                    >
+                    <dialog id="my_modal_4" className="modal text-slate-800 ">
                       <Modal id={getId} />
                     </dialog>
                   </div>

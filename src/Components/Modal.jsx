@@ -61,7 +61,7 @@ const Modal = ({ id }) => {
                   </li>
                 </ul>
               </p>
-              <div className="card-actions modal-action justify-end">
+              <div className=" modal-action justify-end">
                 <button className="btn btn-primary">Close</button>
               </div>
             </div>
